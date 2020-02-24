@@ -13,7 +13,7 @@ const Login = (props) => {
                 alert('Authentication Failed')
             }else{
                 localStorage.setItem('auctionUser',input);
-                props.history.push({pathname : '/react-auction/'});
+                props.history.push({pathname : '/online-auction-hub/'});
             }
         })
         .catch(error => console.error(error));
@@ -28,7 +28,7 @@ const Login = (props) => {
     }
 
     const signupHandler = () => {
-        props.history.push({pathname : '/react-auction/signup'});
+        props.history.push({pathname : '/online-auction-hub/signup'});
     }
 
     return (

@@ -22,7 +22,7 @@ const Signup = (props) => {
             if(response.data.status !== 'Ok'){
                 console.error('Failed')
             }else{
-                props.history.push({pathname : '/react-auction/login'});
+                props.history.push({pathname : '/online-auction-hub/login'});
             }
         })
         .catch(error => console.error(error))
@@ -48,7 +48,7 @@ const Signup = (props) => {
     }
 
     const loginHandler = () => {
-        props.history.push({pathname : '/react-auction/login'});
+        props.history.push({pathname : '/online-auction-hub/login'});
     }
 
     return (

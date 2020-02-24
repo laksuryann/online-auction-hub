@@ -57,7 +57,7 @@ const Sell = (props) => {
             if(response.data.status !== 'Ok'){
                 console.error('Failed')
             }else{
-                props.history.push({pathname : '/react-auction/'});
+                props.history.push({pathname : '/online-auction-hub/'});
             }
         })
         .catch(error => console.error(error))

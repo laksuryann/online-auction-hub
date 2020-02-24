@@ -23,7 +23,7 @@ const Home = (props) => {
 
     return (
         data.map((item) => {
-          return (<Link key={item._id} to={'/react-auction/items/' + item._id}>
+          return (<Link key={item._id} to={'/online-auction-hub/items/' + item._id}>
 
           <Items name={item.name} image={item.image}></Items>
           

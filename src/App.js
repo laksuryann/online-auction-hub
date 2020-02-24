@@ -67,13 +67,13 @@ const App = (props) => {
             <div></div>
             <div></div>
             </div>
-            <Link className='title' onClick={homeClicked} to='/react-auction/'>Home</Link>
+            <Link className='title' onClick={homeClicked} to='/online-auction-hub/'>Home</Link>
           </nav>
           <div id='sidemenu' className='sideDiv'>
-            {isLoggedIn ? <Link to='/react-auction/mybids'><p onClick={myBidsHandler}>My Bids</p></Link> : null}
-            {isLoggedIn ? <Link to='/react-auction/myauctions'><p onClick={myBidsHandler}>My Auctions</p></Link> : null}
-            {isLoggedIn ? <Link to='/react-auction/sell'><p onClick={sellHandler}>Sell</p></Link> : null}
-            {isLoggedIn ? <p onClick={logoutHandler}>Logout</p> : <Link to='/react-auction/login'><p onClick={loginHandler}>Login</p></Link>}
+            {isLoggedIn ? <Link to='/online-auction-hub/mybids'><p onClick={myBidsHandler}>My Bids</p></Link> : null}
+            {isLoggedIn ? <Link to='/online-auction-hub/myauctions'><p onClick={myBidsHandler}>My Auctions</p></Link> : null}
+            {isLoggedIn ? <Link to='/online-auction-hub/sell'><p onClick={sellHandler}>Sell</p></Link> : null}
+            {isLoggedIn ? <p onClick={logoutHandler}>Logout</p> : <Link to='/online-auction-hub/login'><p onClick={loginHandler}>Login</p></Link>}
           </div>
 
           <Route path='/online-auction-hub/' exact component={Home}/>
