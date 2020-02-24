@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/online-auction-hub/static/css/main.c913235a.chunk.css",
+    "main.js": "/online-auction-hub/static/js/main.6ab51209.chunk.js",
+    "main.js.map": "/online-auction-hub/static/js/main.6ab51209.chunk.js.map",
+    "runtime-main.js": "/online-auction-hub/static/js/runtime-main.44aec3c9.js",
+    "runtime-main.js.map": "/online-auction-hub/static/js/runtime-main.44aec3c9.js.map",
+    "static/js/2.9a244cfd.chunk.js": "/online-auction-hub/static/js/2.9a244cfd.chunk.js",
+    "static/js/2.9a244cfd.chunk.js.map": "/online-auction-hub/static/js/2.9a244cfd.chunk.js.map",
+    "index.html": "/online-auction-hub/index.html",
+    "precache-manifest.26ccaae5c09a6b5092d32be99339e159.js": "/online-auction-hub/precache-manifest.26ccaae5c09a6b5092d32be99339e159.js",
+    "service-worker.js": "/online-auction-hub/service-worker.js",
+    "static/css/main.c913235a.chunk.css.map": "/online-auction-hub/static/css/main.c913235a.chunk.css.map",
+    "static/js/2.9a244cfd.chunk.js.LICENSE": "/online-auction-hub/static/js/2.9a244cfd.chunk.js.LICENSE",
+    "static/media/back.svg": "/online-auction-hub/static/media/back.646e3024.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44aec3c9.js",
+    "static/js/2.9a244cfd.chunk.js",
+    "static/css/main.c913235a.chunk.css",
+    "static/js/main.6ab51209.chunk.js"
+  ]
+}
