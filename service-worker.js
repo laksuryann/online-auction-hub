@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/online-auction-hub/precache-manifest.26ccaae5c09a6b5092d32be99339e159.js"
+  "/online-auction-hub/precache-manifest.e0733b9e839713f27ae66eeb9af1a5d1.js"
 );
 
 self.addEventListener('message', (event) => {
