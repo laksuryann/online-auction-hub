@@ -76,13 +76,13 @@ const App = (props) => {
             {isLoggedIn ? <p onClick={logoutHandler}>Logout</p> : <Link to='/react-auction/login'><p onClick={loginHandler}>Login</p></Link>}
           </div>
 
-          <Route path='/react-auction/' exact component={Home}/>
-          <Route path='/react-auction/login' exact component={Login}/>
-          <Route path='/react-auction/signup' exact component={Signup}/>
-          <Route path='/react-auction/mybids' exact component={Mybids}/>
-          <Route path='/react-auction/myauctions' exact component={Myauctions}/>
-          <Route path='/react-auction/sell' exact component={Sell}/>
-          <Route path='/react-auction/items/:id' exact component={Item}/>
+          <Route path='/online-auction-hub/' exact component={Home}/>
+          <Route path='/online-auction-hub/login' exact component={Login}/>
+          <Route path='/online-auction-hub/signup' exact component={Signup}/>
+          <Route path='/online-auction-hub/mybids' exact component={Mybids}/>
+          <Route path='/online-auction-hub/myauctions' exact component={Myauctions}/>
+          <Route path='/online-auction-hub/sell' exact component={Sell}/>
+          <Route path='/online-auction-hub/items/:id' exact component={Item}/>
         </div>
         </BrowserRouter>
   );
