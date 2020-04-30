@@ -1,6 +1,7 @@
-/* .App {
-  text-align: center;
-} */
+.App {
+  /* text-align: center; */
+  background-color: rgba(128, 128, 128, 0.171);
+}
 
 nav{
   /* width: 100%; */
@@ -112,4 +113,50 @@ a{
 
 .container.active div:nth-child(4){
   transform: scale(0);
+}
+
+#items{
+  position: absolute;
+  right: 0;
+}
+
+#nav-items{
+  color: #262626;
+  /* border: 1.5px solid #262626; */
+  /* border-radius: 10px; */
+  border-bottom: 2px solid #262626;
+  padding: 3px;
+  margin: 0px 5px;
+  font-size: 20px;
+}
+
+#logout{
+  border: 1.5px solid red;
+  border-radius: 10px;
+  padding: 2px;
+  margin: 0px 3px;
+  color: #262626;
+  font-size: 20px;
+  background-color: rgb(255, 99, 71);
+}
+
+#login{
+  border: 1.5px solid green;
+  border-radius: 10px;
+  padding: 2px;
+  margin: 0px 3px;
+  font-size: 20px;
+  color: #262626;
+}
+
+#main-div{
+  height: 30vh;
+  width: 90vw;
+  border-radius: 30px;
+  /* padding: 0 10vw; */
+  color: #262626;
+  margin: 20px;
+  font-size: 25px;
+  background-color: bisque;
+  padding: 50px 20px;
 }

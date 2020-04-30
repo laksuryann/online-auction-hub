@@ -1,0 +1,27 @@
+.homeFooter{
+    height: 40vh;
+    width: 95%;
+    background-color: rgba(38, 38, 38, 0.11);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.footerOne {
+    display: inline-block;
+    height: 30vh;
+    width: 40%;
+    background-color: rgba(255, 166, 0, 0.418);
+    margin: 40px;
+    border-radius: 10px;
+    color: #262626;
+    font-size: 30px;
+}
+
+.footerTwo{
+    display: inline-block;
+    height: 30vh;
+    width: 40%;
+    background-color: rgba(255, 166, 0, 0.418);
+    margin: 40px;
+    border-radius: 10px;
+}

@@ -1,13 +1,16 @@
 .Main {
     text-align: center;
+    background-color: white;
 }
 
 input{
     border: 3px solid steelblue;
-    height: 50px;
+    border-radius: 10px;
+    height: 40px;
     width: 300px;
     margin: 15px;
     font-size: 25px;
+    border-radius: 10px;
 }
 
 button{
@@ -19,6 +22,7 @@ button{
     font-size: 20px;
     margin: 10px;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 span{

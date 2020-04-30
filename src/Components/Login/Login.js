@@ -33,9 +33,11 @@ const Login = (props) => {
 
     return (
         <div className={styles.Main}>
+            <center><div style={{padding:'20px',backgroundColor:'lightgreen',width:'40vw',borderRadius:'20px'}}>
             <input type='email' placeholder="Email" value={input} onChange={getInputHandler} required></input><br></br>                
             <input type='password' placeholder="Password" value={password} onChange={getPasswordHandler} required></input><br></br>
             <button onClick={loginHandler}>Login</button>
+            </div></center>
             {/* <button >Signup</button> */}
             <p>Don't have an account one? <span onClick={signupHandler}>Signup here..</span></p>
             </div>
