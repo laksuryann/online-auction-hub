@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "19890fdf331caaaf67cf7492e8b51db6",
+    "revision": "056d8f22c1945379a06a4bdd39e147e0",
     "url": "/online-auction-hub/index.html"
   },
   {
-    "revision": "d70db30dd9321a7aaa12",
-    "url": "/online-auction-hub/static/css/main.c913235a.chunk.css"
+    "revision": "4f0649d73df502a010ca",
+    "url": "/online-auction-hub/static/css/main.90f41921.chunk.css"
   },
   {
-    "revision": "025b633a68df7302185a",
-    "url": "/online-auction-hub/static/js/2.043ca380.chunk.js"
+    "revision": "61178723ce8b3ea44395",
+    "url": "/online-auction-hub/static/js/2.2cf1a2e3.chunk.js"
   },
   {
     "revision": "d9c45e99246f9278c0aaaed8f70e87b4",
-    "url": "/online-auction-hub/static/js/2.043ca380.chunk.js.LICENSE"
+    "url": "/online-auction-hub/static/js/2.2cf1a2e3.chunk.js.LICENSE"
   },
   {
-    "revision": "d70db30dd9321a7aaa12",
-    "url": "/online-auction-hub/static/js/main.0ea46f94.chunk.js"
+    "revision": "4f0649d73df502a010ca",
+    "url": "/online-auction-hub/static/js/main.88399fb6.chunk.js"
   },
   {
     "revision": "b4f984e1982ac99cd08d",

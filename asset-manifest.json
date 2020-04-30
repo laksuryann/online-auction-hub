@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/online-auction-hub/static/css/main.c913235a.chunk.css",
-    "main.js": "/online-auction-hub/static/js/main.0ea46f94.chunk.js",
-    "main.js.map": "/online-auction-hub/static/js/main.0ea46f94.chunk.js.map",
+    "main.css": "/online-auction-hub/static/css/main.90f41921.chunk.css",
+    "main.js": "/online-auction-hub/static/js/main.88399fb6.chunk.js",
+    "main.js.map": "/online-auction-hub/static/js/main.88399fb6.chunk.js.map",
     "runtime-main.js": "/online-auction-hub/static/js/runtime-main.8b32b3c4.js",
     "runtime-main.js.map": "/online-auction-hub/static/js/runtime-main.8b32b3c4.js.map",
-    "static/js/2.043ca380.chunk.js": "/online-auction-hub/static/js/2.043ca380.chunk.js",
-    "static/js/2.043ca380.chunk.js.map": "/online-auction-hub/static/js/2.043ca380.chunk.js.map",
+    "static/js/2.2cf1a2e3.chunk.js": "/online-auction-hub/static/js/2.2cf1a2e3.chunk.js",
+    "static/js/2.2cf1a2e3.chunk.js.map": "/online-auction-hub/static/js/2.2cf1a2e3.chunk.js.map",
     "index.html": "/online-auction-hub/index.html",
-    "precache-manifest.df9566632403522deaae45d33323cb9d.js": "/online-auction-hub/precache-manifest.df9566632403522deaae45d33323cb9d.js",
+    "precache-manifest.586326f627370608ac380071776232fd.js": "/online-auction-hub/precache-manifest.586326f627370608ac380071776232fd.js",
     "service-worker.js": "/online-auction-hub/service-worker.js",
-    "static/css/main.c913235a.chunk.css.map": "/online-auction-hub/static/css/main.c913235a.chunk.css.map",
-    "static/js/2.043ca380.chunk.js.LICENSE": "/online-auction-hub/static/js/2.043ca380.chunk.js.LICENSE",
+    "static/css/main.90f41921.chunk.css.map": "/online-auction-hub/static/css/main.90f41921.chunk.css.map",
+    "static/js/2.2cf1a2e3.chunk.js.LICENSE": "/online-auction-hub/static/js/2.2cf1a2e3.chunk.js.LICENSE",
     "static/media/back.svg": "/online-auction-hub/static/media/back.646e3024.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.8b32b3c4.js",
-    "static/js/2.043ca380.chunk.js",
-    "static/css/main.c913235a.chunk.css",
-    "static/js/main.0ea46f94.chunk.js"
+    "static/js/2.2cf1a2e3.chunk.js",
+    "static/css/main.90f41921.chunk.css",
+    "static/js/main.88399fb6.chunk.js"
   ]
 }
