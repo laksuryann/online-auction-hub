@@ -5,10 +5,12 @@ import { Link } from 'react-router-dom';
 
 import Items from '../Items/Items';
 
+var fullData = ''
 
 const Home = (props) => {
   
   const [data,setData] = useState([]);
+  const [value, setValue] = useState('')
   
   const start = () => {
     // var reload = true
@@ -19,8 +21,19 @@ const Home = (props) => {
       axios.get('https://react-auction-server.herokuapp.com/sell')
       .then((response) => {
         setData(response.data);
+        fullData = response.data
       })
       .catch((error) => console.error(error))
+    }
+
+    const selecteValueChange = (event) => {
+        setValue(event.target.value)
+        if(event.target.value === 'All'){
+          setData(fullData)
+        }else{
+          let items = fullData.filter(i => i.category === event.target.value ? true : false)
+          setData(items) 
+        }
     }
 
     useEffect(() => {
@@ -37,11 +50,21 @@ const Home = (props) => {
         auctions at ease.
         </div></center>
         <span style={{color:'#262626',fontSize:'30px',marginLeft:'20px',borderBottom:'3px solid skyblue'}}><b>PRODUCTS AVAILABLE ➡</b></span>
+        <span>
+        <select name="category" value={value} onChange={selecteValueChange}>
+            <option value="All">All</option>
+            <option value="Fine Art">Fine Art</option>
+            <option value="Coins and Jewelry">Coins and Jewelry</option>
+            <option value="Collectibles">Collectibles</option>
+            <option value="Antiques">Antiques</option>
+            <option value="Memorabilia">Memorabilia</option>
+            <option value="Clothing and Souvenirs">Clothing and Souvenirs</option>
+            </select>
+        </span>
         <div>
         {data.map((item) => {
           return (<Link key={item._id} to={'/online-auction-hub/items/' + item._id}>
                 <Items name={item.name} initialprice={item.initialprice} bidprice={item.bidprice} image={item.image}></Items>
-          
           </Link>)
         })}
         </div>
