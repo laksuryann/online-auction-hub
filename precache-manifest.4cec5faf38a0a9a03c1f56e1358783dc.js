@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d45acd7166e42eda0f150d43057dc1b6",
+    "revision": "636f6d9465353f8864c1d6b403e70d72",
     "url": "/online-auction-hub/index.html"
   },
   {
-    "revision": "ffde40230ae2f7826b81",
+    "revision": "318611ccab33e68116f3",
     "url": "/online-auction-hub/static/css/main.90f41921.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/online-auction-hub/static/js/2.2cf1a2e3.chunk.js.LICENSE"
   },
   {
-    "revision": "ffde40230ae2f7826b81",
-    "url": "/online-auction-hub/static/js/main.c6b49fda.chunk.js"
+    "revision": "318611ccab33e68116f3",
+    "url": "/online-auction-hub/static/js/main.add4b008.chunk.js"
   },
   {
     "revision": "b4f984e1982ac99cd08d",
